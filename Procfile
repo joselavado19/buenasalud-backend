@@ -1,1 +1,2 @@
-web: python manage.py migrate && gunicorn buenasalud-backend.wsgi
+web: python manage.py migrate && gunicorn buenasalud_api.wsgi
+ 
