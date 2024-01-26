@@ -86,14 +86,25 @@ WSGI_APPLICATION = 'buenasalud_api.wsgi.application'
 # https://docs.djangoproject.com/en/5.0/ref/settings/#databases
 
 
+# DATABASES = {
+#    'default': {
+#        'ENGINE': 'django.db.backends.mysql',
+#        'NAME': 'railway',
+#        'USER': 'root',
+#        'PASSWORD': 'DcgE6Ee5eC65Hecb61cfCcGBH1b5bcBe',
+#        'HOST': 'monorail.proxy.rlwy.net',
+#        'PORT': 25223,
+#    }
+# }
+
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'railway',
+        'NAME': 'dbclinicasgu_api',
         'USER': 'root',
-        'PASSWORD': 'DcgE6Ee5eC65Hecb61cfCcGBH1b5bcBe',
-        'HOST': 'monorail.proxy.rlwy.net',
-        'PORT': 25223,
+        'PASSWORD': '',
+        'HOST': 'localhost',
+        'PORT': 3306,
     }
 }
 

@@ -14,7 +14,7 @@ class VerificaAccesos(models.Model):
 
 
     def __str__(self):
-        return f"{self.username} - {self.nombre_usuario}"
+        return f"{self.username}"
 
     class Meta:
         db_table = "verificaAccesos"
